@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css File -->
+     <link rel="stylesheet" href="./style.css">
+    <title>Form</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    
+<nav>
+        <ul class="navbar">
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>
+    
+        </ul>
+        
+    </nav>
+   
+
+  
+    <section class="form" > 
+       
+        <form>
+        <h1>Job Application Form</h1>
+        <p>Thank You For your intrest in this job, please provide your full information below</p>
+        <div>
+        <label for="name">Name</label><br>
+        <Input id="name" type="text" name="name" placeholder="First Name"></Input>
+        <Input id="name" type="text" name="name" placeholder="Last Name"></Input><br><br>
+        <label type="email" for="email">Email</label><br>
+        <Input type="text" name="email" placeholder="john@example.com"></Input><br><br>
+<label type="text" >What position You are applying for?</label><br>
+<select>
+    <option value="junior">Junior</option>
+    <option value="Mid">Mid</option>
+    <option value="Senior">Senior</option>
+</select><br><br>
+<label type="text">What is Your Current Status?</label><br>
+<input type="radio" name="status" value="employed">Employed<br>
+<input type="radio" name="status" value="unemployed">UnEmployed<br>   
+<input type="radio" name="status" value="Student">Student<br><br>
+<label type="text">What is Your Birth date?</label><br>
+<input type="date" name="Birth"><br><br>
+<label type="name" >Please Upload Your resume</label><br>
+<input type="file" name="resume"><br><br>
+<button type="submit" id="submitBtn">Submit</button>
+</form></section>
+    
+<!-- <h1 class="heading1">Heading</h1>
+<p style="margin-top: 40px;">This is first class</p>
+<p style="margin-top: 10px; border: 2px solid red;">This is first class</p> -->
+
+</body>
+</html>

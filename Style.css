@@ -1,0 +1,65 @@
+.heading1{
+    color: red;
+    background-color: yellow;
+}
+.class{
+    color: blue;
+    text-align: left;
+}
+.navbar{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    flex-direction: row;
+   
+    justify-content:center ;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+color: white;
+}
+#submitBtn{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: oblique;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 12px;
+}
+p,h1{
+    color: blue;
+   text-align: center;
+   font-style: italic;
+   font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+#submitBtn :hover{
+background-color: red;
+}
+ 
+
+
+.form{
+    background-image: url('./Images/2.jpg');
+   border: 2px solid black;
+    justify-content: center;
+    outline-color: aquamarine;
+    outline: 2px dotted;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   min-width: 300px;
+   max-width: 600px;
+   margin:auto;
+   height: 100%;
+   padding: 10px 50px;
+   overflow: auto;
+}
+
